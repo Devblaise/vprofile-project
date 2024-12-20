@@ -1,0 +1,18 @@
+# Ignore all .log files
+*.log
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore temporary files
+*.tmp
+
+# Ignore specific file
+config/settings.json
+
+# Ignore everything in a directory but not a specific file
+logs/
+!logs/important.log
+
+# ignore the target build file
+target/
